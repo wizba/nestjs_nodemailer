@@ -18,7 +18,7 @@ using nestjs and nodemailer to send email
 ```bash
  (1)Download or clone the project from git
 
- <b>(2)In the directory of the project run the following commands -> </b>
+ <b> (2)In the directory of the project run the following commands -> </b>
   $npm install
   $npm i nodemailer --save
 
