@@ -21,9 +21,7 @@ export class AppService {
    * 
    */
   async sendMail(message_body:any){
-
     let info = await this.transporter.sendMail(message_body);
-    
     return info;
   }
 

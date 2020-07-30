@@ -3,20 +3,8 @@ import { AppService } from './app.service';
 
 @Controller()
 export class AppController {
+  
   constructor(private readonly appService: AppService) {}
-
-  @Get()
-  getHello() {
-
-    
-
-    return this.appService.sendMail({
-      to: 'william@thedigitalacademy.co.za', 
-      subject: 'Json', 
-      text: "world?", 
-      html: "<b style='color:red'>Hello world?</b>", 
-    });
-  }
   /**
    * 
    *   to,subject,text,html
