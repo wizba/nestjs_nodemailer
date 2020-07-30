@@ -13,10 +13,14 @@
 <!-- [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository. -->
 using nestjs and nodemailer to send email
 
-## Installation
+## Steps to run the app
 
 ```bash
-$ npm install
+ download or clone the project from git
+ in the directory of the project
+  $npm install
+  $npm i nodemailer --save
+
 ```
 
 ## Running the app
