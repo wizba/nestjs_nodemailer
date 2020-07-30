@@ -13,17 +13,23 @@
 <!-- [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository. -->
 using nestjs and nodemailer to send email
 
-## Steps to run the app
+# Steps to run the app
 
 ```bash
  (1)Download or clone the project from git
-
- <b> (2)In the directory of the project run the following commands -> </b>
+```
+## (2)In the directory of the project run the following commands ->
+ ``` 
   $npm install
   $npm i nodemailer --save
-
+  $npm i --save @nestjs/config
+  ```
+## (3) create a .env file in the root directory
 ```
-
+put the email and passwor in your .env file as follow -
+  EMAIL = someone@gmail.com
+  PASSWORD = password
+```
 ## Running the app
 
 ```bash
@@ -37,29 +43,3 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-  Nest is [MIT licensed](LICENSE).
