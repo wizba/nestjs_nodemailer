@@ -16,8 +16,8 @@ using nestjs and nodemailer to send email
 ## Steps to run the app
 
 ```bash
- download or clone the project from git
- in the directory of the project
+ (1)Download or clone the project from git
+ (2)In the directory of the project run the following commands ->
   $npm install
   $npm i nodemailer --save
 
