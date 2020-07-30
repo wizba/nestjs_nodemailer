@@ -3,7 +3,7 @@ import { AppService } from './app.service';
 
 @Controller()
 export class AppController {
-  
+
   constructor(private readonly appService: AppService) {}
   /**
    * 
@@ -15,6 +15,12 @@ export class AppController {
   sendMail(@Body() message_body)
   {
     return this.appService.sendMail(message_body);
+  }
+
+  @Get()
+  getData()
+  {
+    return 'its woeking';
   }
 
   

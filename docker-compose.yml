@@ -1,0 +1,13 @@
+version: '2'
+
+#Define the services/containers to be run
+services:
+  nestjs_nodemailer:
+    build: .
+    ports:
+    - '3000:3000'
+    container_name: backend
+    restart: always
+   
+
+  
