@@ -23,7 +23,7 @@
     "@nestjs/common": "^6.10.14",
     "@nestjs/config": "^0.5.0",
     "@nestjs/core": "^6.10.14",
-    "@nestjs/platform-express": "^6.10.14",
+    "@nestjs/platform-express": "^9.2.1",
     "nodemailer": "^6.4.10",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.0",
